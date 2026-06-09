@@ -1,3 +1,4 @@
+// Derived from IPAX 2 r.20260517 by Santiago Bustelo (https://bustelo.com.ar) — license pending
 import { hexToOklch, getY, calculateWcagContrast } from './ipax-color-math.js';
 import * as APCABridge from './ipax-apca-bridge.js';
 import * as Ergo from './ipax-ergonomics.js';

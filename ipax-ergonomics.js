@@ -1,3 +1,4 @@
+// Derived from IPAX 2 r.20260517 by Santiago Bustelo (https://bustelo.com.ar) — license pending
 export function calculatePenalties(txt, bg, isDarkContext) {
     let totalPenalty = 0;
     const warnings = [];

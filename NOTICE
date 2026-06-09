@@ -1,0 +1,46 @@
+ipax-cli
+========
+
+This project contains code derived from third-party sources listed below.
+A license has been requested from each author and is pending.
+
+
+1. IPAX 2 — Santiago Bustelo
+   Website : https://www.bustelo.com.ar/
+   Source  : https://icograma.com/index.php
+   Status  : License requested — pending author approval
+
+   The following files are derived works of IPAX 2 r.20260517:
+     ipax-core.js          — scoring orchestrator (ported to Node.js ESM)
+     ipax-color-math.js    — OKLCh color space conversions
+     ipax-apca-bridge.js   — APCA Lc calculation and font sizing
+     ipax-ergonomics.js    — perceptual penalty and reward engine
+     ipax-dictionary.js    — penalty/reward data and scientific references
+
+   Adaptation: IIFE browser modules converted to ES module exports.
+   The scoring algorithms, physiological models, and penalty/reward data
+   are reproduced with the intent to credit and obtain permission.
+
+
+2. APCA W3 — Andrew Somers / Myndex Research
+   Repository : https://github.com/Myndex/apca-w3
+   Copyright  : © 2019-2022 Andrew Somers. All Rights Reserved.
+   License    : W3 LICENSE (web content accessibility use)
+
+   The following file is reproduced unmodified from the apca-w3 package:
+     apca-w3.js
+
+   Used for predicting perceptual contrast for web content per WCAG
+   guidelines. The W3 license permits royalty-free use for this purpose.
+   Prohibited uses include medical, clinical, aerospace, transportation,
+   military, and applications not specific to web content.
+
+
+Original work in this repository
+---------------------------------
+The following files are original contributions not derived from the above:
+  index.js          — CLI entry point and argument parsing
+  parse-color.js    — universal color parser (hex, rgb, oklch, color-mix, named)
+  ipax-find.js      — OKLCh grid search command
+  ipax-palette.js   — palette ΔE matrix and CVD simulation
+  ipax-stack.js     — layer compositor and stack scoring

@@ -1,3 +1,4 @@
+// Derived from IPAX 2 r.20260517 by Santiago Bustelo (https://bustelo.com.ar) — license pending
 import { APCAcontrast, fontLookupAPCA, sRGBtoY } from './apca-w3.js';
 
 export function getApcaYFromHex(hex) {

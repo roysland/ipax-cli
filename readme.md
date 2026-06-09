@@ -1,8 +1,10 @@
 # ipax-cli
 
-** This entire repository is based on the brilliant work of Santiago Bustelo**
-- Website: https://www.bustelo.com.ar/
-- Source: https://icograma.com/index.php
+> **Based on the work of Santiago Bustelo** — [bustelo.com.ar](https://www.bustelo.com.ar/) · [icograma.com](https://icograma.com/index.php)
+>
+> The IPAX scoring engine, ergonomics model, and perceptual dictionary are derived from his IPAX 2 system. License pending his permission. See [NOTICE](./NOTICE) for full attribution.
+>
+> The APCA contrast algorithm (`apca-w3.js`) is copyright © 2019-2022 Andrew Somers / Myndex Research, used under the W3 license for web content accessibility.
 
 A command-line tool that scores color pairs for accessibility and visual comfort. It goes beyond standard contrast ratios by factoring in how human vision actually experiences color — so a pair that passes the legal accessibility threshold can still score poorly if it causes eye strain.
 
