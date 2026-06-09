@@ -1,20 +1,20 @@
 LICENSE — ipax-cli
 ==================
 
-STATUS: Pending
-
 This repository contains code derived from IPAX 2 by Santiago Bustelo
-(https://bustelo.com.ar). A license request has been submitted to the
-author. Until a license is granted, all rights to the derived portions
-remain with the original author.
+(https://bustelo.com.ar), used with the author's permission under
+CC-BY attribution terms (permission granted 2026-06-10).
+
+Attribution: Santiago Bustelo is credited by name with links in this
+repository. This is consistent with the CC-BY license direction the
+author intends to adopt for IPAX.
 
 The APCA contrast algorithm (apca-w3.js) is copyright © 2019-2022
 Andrew Somers / Myndex Research and is used under the W3 license for
 web content accessibility purposes.
 
 The original portions of this project (index.js, parse-color.js,
-ipax-find.js, ipax-palette.js, ipax-stack.js) are the work of the
-contributors listed in the git history.
+ipax-find.js, ipax-palette.js, ipax-stack.js, mcp-server.js) are the
+work of the contributors listed in the git history.
 
-This file will be updated when the author's response is received.
 See NOTICE for full attribution details.

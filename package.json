@@ -4,6 +4,10 @@
   "private": true,
   "type": "module",
   "bin": {
-    "ipax": "./index.js"
+    "ipax": "./index.js",
+    "ipax-mcp": "./mcp-server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
   }
 }
