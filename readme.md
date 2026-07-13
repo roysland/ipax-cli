@@ -1,5 +1,5 @@
 # ipax-cli
-
+Archived 2026-07-13. Moved to [https://github.com/roysland/ipax-tools](https://github.com/roysland/ipax-tools)
 > **Based on the work of Santiago Bustelo** — [bustelo.com.ar](https://www.bustelo.com.ar/) · [icograma.com](https://icograma.com/index.php)
 >
 > The IPAX scoring engine, ergonomics model, and perceptual dictionary are derived from his IPAX 2 system. License pending his permission. See [NOTICE](./NOTICE) for full attribution.
